@@ -21,3 +21,4 @@ git clone https://github.com/mdruwaid/[your-repo-name].git
 cd [your-repo-name]
 npm install
 npm run dev
+# codewars-2
