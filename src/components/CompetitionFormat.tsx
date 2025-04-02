@@ -34,20 +34,24 @@ const CompetitionFormat = () => {
             </div>
             <h3 className="text-xl font-semibold text-cyan-400 mb-3 drop-shadow-[0_0_3px_rgba(34,211,238,0.3)]">Multiple Rounds</h3>
             <p className="text-slate-300 mb-4">
-              The competition consists of three progressive rounds, each focusing on different aspects of development.
+              The competition consists of four progressive rounds, each focusing on different aspects of development.
             </p>
             <ul className="space-y-2 text-slate-300 flex-grow">
               <li className="flex items-start">
                 <span className="text-cyan-400 mr-2">•</span>
-                <span><strong>Round 1:</strong> Core programming and algorithmic challenges</span>
+                <span><strong>Round 1:</strong> Basic coding challenges and problem-solving</span>
               </li>
               <li className="flex items-start">
                 <span className="text-hackathon-primary mr-2">•</span>
-                <span><strong>Round 2:</strong> Database implementation and optimization</span>
+                <span><strong>Round 2:</strong> Database Management System implementation</span>
               </li>
               <li className="flex items-start">
                 <span className="text-hackathon-primary mr-2">•</span>
-                <span><strong>Round 3:</strong> Front-end development and UI design</span>
+                <span><strong>Round 3:</strong> Data Structures and Algorithms challenges</span>
+              </li>
+              <li className="flex items-start">
+                <span className="text-hackathon-primary mr-2">•</span>
+                <span><strong>Round 4:</strong> Front-end development and UI implementation</span>
               </li>
             </ul>
           </motion.div>
